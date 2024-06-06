@@ -1,0 +1,37 @@
+<resources>
+    <!-- Tema 1 -->
+    <style name="AppTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Fondo para el tema 1 -->
+        <item name="android:windowBackground">@color/theme1Background</item>
+        <!-- Otros estilos para el tema 1 -->
+        <item name="android:buttonStyle">@style/ButtonStyle1</item>
+        <item name="android:textViewStyle">@style/TextViewStyle1</item>
+    </style>
+
+    <style name="ButtonStyle1" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FFDDDD</item> <!-- Fondo rojo claro -->
+        <item name="android:textColor">#FF0000</item> <!-- Texto rojo -->
+    </style>
+
+    <style name="TextViewStyle1" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#FF0000</item> <!-- Texto rojo -->
+    </style>
+
+    <!-- Tema 2 -->
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Fondo para el tema 2 -->
+        <item name="android:windowBackground">@color/theme2Background</item>
+        <!-- Otros estilos para el tema 2 -->
+        <item name="android:buttonStyle">@style/ButtonStyle2</item>
+        <item name="android:textViewStyle">@style/TextViewStyle2</item>
+    </style>
+
+    <style name="ButtonStyle2" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item> <!-- Fondo con forma redondeada -->
+        <item name="android:textColor">#0000FF</item> <!-- Texto azul -->
+    </style>
+
+    <style name="TextViewStyle2" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#0000FF</item> <!-- Texto azul -->
+    </style>
+</resources>

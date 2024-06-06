@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpinnerThemes</string>
+
+    <string-array name="theme_names">
+        <item>Tema 1</item>
+        <item>Tema 2</item>
+    </string-array>
+
+    <string-array name="theme_styles">
+        <item>AppTheme1</item>
+        <item>AppTheme2</item>
+    </string-array>
+</resources>
